@@ -26,7 +26,5 @@ cask "common-repo" do
 
   binary "common-repo"
 
-  no_autobump! because: :automatically_updates
-
   zap trash: "~/.config/common-repo"
 end
